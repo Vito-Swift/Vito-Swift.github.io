@@ -1,7 +1,7 @@
 ---
-- name: Security
-  tag: SEC
-- name: Privacy
-  tag: PRIV
-- name: Crypto
-  tag: CRYPTO
+- name: Tier 0
+  tag: T0
+- name: Tier 1
+  tag: T1
+- name: Related
+  tag: Related
