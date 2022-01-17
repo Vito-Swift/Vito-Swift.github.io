@@ -1,14 +1,13 @@
-title: Security and Privacy Conference Deadlines
-description: Countdowns to top Security and Privacy conference deadlines.
-author: Bogdan Kulynych
+title: Conference Deadlines
+description: Countdowns to conference that I care about.
+author: Vito C.H. Wu
 
-domain: "sec-deadlines.github.io"
+domain: "Vito-Swift.github.io"
 baseurl: ""
 
-twitter_username: hiddenmarkov
-github_username: sec-deadlines
-github_repo: sec-deadlines
-ga_id: UA-104921371-1
+twitter_username: Vito_CWu
+github_username: Vito-Swift
+github_repo: Vito-Swift
 
 markdown: kramdown
 
