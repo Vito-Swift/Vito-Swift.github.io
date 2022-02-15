@@ -31,6 +31,18 @@
   place: Sydney, Australia
   tags: [T0, T1]
 
+- name: Oakland
+  description: IEEE Symposium on Security and Privacy
+  year: 2023
+  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+  comment: Three deadlines
+  deadline:
+    - "2022-04-01 23:59"
+    - "2022-08-19 23:59"
+    - "2022-12-02 23:59"
+  date: "May 2023"
+  place: "San Francisco, CA, United States"
+  
 - name: Sensys
   description: ACM Conference on Embedded Networked Sensor Systems
   year: 2022
