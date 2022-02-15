@@ -33,11 +33,11 @@
 
 - name: Sensys
   description: ACM Conference on Embedded Networked Sensor Systems
-  year: 2021
-  link: https://sensys.acm.org/2021/
-  deadline: "2021-06-04 23:59"
-  place: Convento de São Francisco
-  date: "Dec 2021"
+  year: 2022
+  link: https://sensys.acm.org/2022/
+  deadline: "2022-06-07 23:59"
+  place: Boston, United States
+  date: "Nov 2022"
   tags: [T0, T1]
 
 - name: CCS
