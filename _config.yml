@@ -1,5 +1,5 @@
 title: Conference Deadlines
-description: Countdowns to conference that I care about.
+description: Countdowns to conferences that I care about.
 author: Vito C.H. Wu
 
 domain: "Vito-Swift.github.io"
@@ -7,7 +7,7 @@ baseurl: ""
 
 twitter_username: Vito_CWu
 github_username: Vito-Swift
-github_repo: Vito-Swift
+github_repo: Vito-Swift.github.io
 
 markdown: kramdown
 
