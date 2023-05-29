@@ -1,9 +1,32 @@
+- name: SIGCOMM (Exp.)
+  year: 2024
+  date: "September 10 - 14 2024"
+  description: ACM Special Interest Group on Data Communication
+  link: https://conferences.sigcomm.org/sigcomm/2024/
+  deadline: "2024-02-15 23:59"
+  timezone: Etc/UTC
+  place: (TBD) Wild card
+  tags: [Bullseye]
+
+- name: NSDI
+  year: 2024
+  date: "April 16 - 18 2024"
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/confrence/nsdi24/
+  comment: Two deadlines
+  deadline:
+    - "2023-05-04 20:59"
+    - "2023-09-14 20:59"
+  timezone: Etc/GMT+8
+  place: Santa Clara, CA, USA
+  tags: [Bullseye]
+  
 - name: ATC (Exp.)
   description: USENIX Annual Technical Conference
   year: 2024
   link: https://www.usenix.org/conference/usenixatc24
   date: "July 10 - 12 2024"
-  deadline: "2024-12-13 23:59"
+  deadline: "2023-12-13 23:59"
   timezone: Etc/GMT+8
   place: Santa Clara, CA, United States
   tags: [Good, BroaderArea]
@@ -13,7 +36,7 @@
   year: 2024
   link: https://www.usenix.org/conference/osdi24
   date: "July 10 - 12 2024"
-  deadline: "2024-12-13 23:59"
+  deadline: "2023-12-13 23:59"
   timezone: Etc/GMT+8
   place: Santa Clara, CA, United States
   tags: [Good, BroaderArea]
@@ -51,16 +74,6 @@
   place: Istanbul, Turkiye
   tags: [Good]
 
-- name: SIGCOMM (Exp.)
-  year: 2024
-  date: "September 10 - 14 2024"
-  description: ACM Special Interest Group on Data Communication
-  link: https://conferences.sigcomm.org/sigcomm/2024/
-  deadline: "2024-02-15 23:59"
-  timezone: Etc/UTC
-  place: (TBD) Wild card
-  tags: [Bullseye]
-
 - name: SIGCOMM
   year: 2023
   date: "September 10 - 14 2023"
@@ -70,20 +83,6 @@
   timezone: Etc/UTC
   place: New York City, USA
   tags: [Bullseye]
-
-- name: NSDI
-  year: 2024
-  date: "April 16 - 18 2024"
-  description: USENIX Symposium on Networked Systems Design and Implementation
-  link: https://www.usenix.org/confrence/nsdi24/
-  comment: Two deadlines
-  deadline:
-    - "2023-05-04 20:59"
-    - "2023-09-14 20:59"
-  timezone: Etc/GMT+8
-  place: Santa Clara, CA, USA
-  tags: [Bullseye]
-
 
 - name: NSDI
   year: 2023
