@@ -1,3 +1,29 @@
+- name: MobiCom (Exp.)
+  description: The 30th Annual International Conference on Mobile Computing and Networking 
+  year: 2024
+  link: https://www.sigmobile.org/mobicom/2024/
+  comment: Two deadlines
+  deadline: 
+    - "2023-08-19 23:59"
+    - "2024-03-17 23:59"
+  date: "Oct 2 - 6 2023"
+  timezone: Etc/GMT+8
+  place: TBD
+  tags: [Bullseye]
+
+- name: MobiCom
+  description: The 29th Annual International Conference on Mobile Computing and Networking 
+  year: 2023
+  link: https://www.sigmobile.org/mobicom/2023/
+  comment: Two deadlines
+  deadline: 
+    - "2022-08-19 23:59"
+    - "2023-03-17 23:59"
+  date: "Oct 2 - 6 2023"
+  timezone: Etc/GMT+8
+  place: Madrid, Spain
+  tags: [Bullseye]
+
 - name: Sensys
   year: 2023
   date: "November 13 - 15 2023"
