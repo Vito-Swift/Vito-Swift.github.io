@@ -1,17 +1,18 @@
-- name: NSDI
+- name: NSDI 2024
   year: 2024
   date: "April 16 - 18 2024"
   description: USENIX Symposium on Networked Systems Design and Implementation
   link: https://www.usenix.org/confrence/nsdi24/
   comment: Two deadlines
   deadline:
-    - "2023-05-04 8:59"
-    - "2023-09-14 8:59"
+    - "2023-05-04 20:59"
+    - "2023-09-14 20:59"
+  timezone: Etc/GMT+8
   place: Santa Clara, CA, USA
   tags: [Bullseye]
 
 
-- name: NSDI
+- name: NSDI 2023
   year: 2023
   date: "April 17 – 19 2023"
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -23,7 +24,7 @@
   place: Boston, MA, USA
   tags: [Bullseye]
   
-- name: SIGCOMM
+- name: SIGCOMM 2022
   year: 2022
   date: "August 22 – 26 2022"
   description: ACM Special Interest Group on Data Communication
@@ -32,7 +33,7 @@
   place: Amsterdam, the Netherlands
   tags: [Bullseye]
 
-- name: MobiCom 
+- name: MobiCom 2022
   description: The 28th Annual International Conference on Mobile Computing and Networking 
   year: 2022
   link: https://www.sigmobile.org/mobicom/2022/
@@ -44,7 +45,7 @@
   place: Sydney, Australia
   tags: [Bullseye]
 
-- name: Oakland
+- name: Oakland 2023
   description: IEEE Symposium on Security and Privacy
   year: 2023
   link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
@@ -57,7 +58,7 @@
   place: "San Francisco, CA, United States"
   tags: [Broader Area]
 
-- name: Sensys
+- name: Sensys 2022
   description: ACM Conference on Embedded Networked Sensor Systems
   year: 2022
   link: https://sensys.acm.org/2021/
@@ -66,7 +67,7 @@
   date: "Nov 2022"
   tags: [Good]
 
-- name: CCS
+- name: CCS 2022
   description: ACM Conference on Computer and Communications Security
   year: 2022
   link: https://www.sigsac.org/ccs/CCS2022/
@@ -78,7 +79,7 @@
   place: Los Angeles, USA
   tags: [Broader Area]
 
-- name: Usenix
+- name: Usenix 2022
   description: Usenix Security Symposium
   year: 2022
   link: https://www.usenix.org/conference/usenixsecurity22
@@ -91,7 +92,7 @@
   place: Boston, MA, USA.
   tags: [Broader Area]
 
-- name: NDSS
+- name: NDSS 2022
   description: ISOC Network and Distributed System Security Symposium
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/
