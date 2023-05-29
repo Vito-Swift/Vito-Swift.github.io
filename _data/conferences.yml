@@ -1,3 +1,23 @@
+- name: ATC (Exp.)
+  description: USENIX Annual Technical Conference
+  year: 2024
+  link: https://www.usenix.org/conference/usenixatc24
+  date: "July 10 - 12 2024"
+  deadline: "2024-12-13 23:59"
+  timezone: Etc/GMT+8
+  place: Santa Clara, CA, United States
+  tags: [Good, BroaderArea]
+
+- name: OSDI (Exp.)
+  description: USENIX Symposium on Operating Systems Design and Implementation
+  year: 2024
+  link: https://www.usenix.org/conference/osdi24
+  date: "July 10 - 12 2024"
+  deadline: "2024-12-13 23:59"
+  timezone: Etc/GMT+8
+  place: Santa Clara, CA, United States
+  tags: [Good, BroaderArea]
+
 - name: MobiCom (Exp.)
   description: The 30th Annual International Conference on Mobile Computing and Networking 
   year: 2024
