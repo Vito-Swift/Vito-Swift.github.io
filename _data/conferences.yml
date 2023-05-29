@@ -1,3 +1,32 @@
+- name: Sensys 2023
+  year: 2023
+  date: "November 13 - 15 2023"
+  description: ACM Conference on Embedded Networked Sensor Systems
+  link: https://sensys.acm.org/2023/
+  deadline: "2023-06-29 23:59"
+  place: Istanbul, Turkiye
+  tags: [Good]
+
+- name: SIGCOMM 2024 (Exp.)
+  year: 2024
+  date: "September 10 - 14 2024"
+  description: ACM Special Interest Group on Data Communication
+  link: https://conferences.sigcomm.org/sigcomm/2024/
+  deadline: "2024-02-15 23:59"
+  timezone: UTC
+  place: (TBD) Wild card
+  tags: [Bullseye]
+
+- name: SIGCOMM 2023
+  year: 2023
+  date: "September 10 - 14 2023"
+  description: ACM Special Interest Group on Data Communication
+  link: https://conferences.sigcomm.org/sigcomm/2023/
+  deadline: "2023-02-15 23:59"
+  timezone: UTC
+  place: New York City, USA
+  tags: [Bullseye]
+
 - name: NSDI 2024
   year: 2024
   date: "April 16 - 18 2024"
