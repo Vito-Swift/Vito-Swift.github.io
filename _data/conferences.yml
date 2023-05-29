@@ -1,4 +1,4 @@
-- name: Sensys 2023
+- name: Sensys
   year: 2023
   date: "November 13 - 15 2023"
   description: ACM Conference on Embedded Networked Sensor Systems
@@ -7,7 +7,7 @@
   place: Istanbul, Turkiye
   tags: [Good]
 
-- name: SIGCOMM 2024 (Exp.)
+- name: SIGCOMM (Exp.)
   year: 2024
   date: "September 10 - 14 2024"
   description: ACM Special Interest Group on Data Communication
@@ -17,7 +17,7 @@
   place: (TBD) Wild card
   tags: [Bullseye]
 
-- name: SIGCOMM 2023
+- name: SIGCOMM
   year: 2023
   date: "September 10 - 14 2023"
   description: ACM Special Interest Group on Data Communication
@@ -27,7 +27,7 @@
   place: New York City, USA
   tags: [Bullseye]
 
-- name: NSDI 2024
+- name: NSDI
   year: 2024
   date: "April 16 - 18 2024"
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -41,7 +41,7 @@
   tags: [Bullseye]
 
 
-- name: NSDI 2023
+- name: NSDI
   year: 2023
   date: "April 17 – 19 2023"
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -53,7 +53,7 @@
   place: Boston, MA, USA
   tags: [Bullseye]
   
-- name: SIGCOMM 2022
+- name: SIGCOMM
   year: 2022
   date: "August 22 – 26 2022"
   description: ACM Special Interest Group on Data Communication
@@ -62,7 +62,7 @@
   place: Amsterdam, the Netherlands
   tags: [Bullseye]
 
-- name: MobiCom 2022
+- name: MobiCom
   description: The 28th Annual International Conference on Mobile Computing and Networking 
   year: 2022
   link: https://www.sigmobile.org/mobicom/2022/
@@ -74,7 +74,7 @@
   place: Sydney, Australia
   tags: [Bullseye]
 
-- name: Oakland 2023
+- name: Oakland
   description: IEEE Symposium on Security and Privacy
   year: 2023
   link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
@@ -87,7 +87,7 @@
   place: "San Francisco, CA, United States"
   tags: [BroaderArea]
 
-- name: Sensys 2022
+- name: Sensys
   description: ACM Conference on Embedded Networked Sensor Systems
   year: 2022
   link: https://sensys.acm.org/2021/
@@ -96,7 +96,7 @@
   date: "Nov 2022"
   tags: [Good]
 
-- name: CCS 2022
+- name: CCS
   description: ACM Conference on Computer and Communications Security
   year: 2022
   link: https://www.sigsac.org/ccs/CCS2022/
@@ -108,7 +108,7 @@
   place: Los Angeles, USA
   tags: [BroaderArea]
 
-- name: Usenix 2022
+- name: Usenix
   description: Usenix Security Symposium
   year: 2022
   link: https://www.usenix.org/conference/usenixsecurity22
@@ -121,7 +121,7 @@
   place: Boston, MA, USA.
   tags: [BroaderArea]
 
-- name: NDSS 2022
+- name: NDSS
   description: ISOC Network and Distributed System Security Symposium
   year: 2022
   link: https://www.ndss-symposium.org/ndss2022/
