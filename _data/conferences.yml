@@ -85,7 +85,7 @@
     - "2022-12-02 23:59"
   date: "May 2023"
   place: "San Francisco, CA, United States"
-  tags: [Broader Area]
+  tags: [BroaderArea]
 
 - name: Sensys 2022
   description: ACM Conference on Embedded Networked Sensor Systems
@@ -106,7 +106,7 @@
   comment: 2 review cycles
   date: "November 14-19"
   place: Los Angeles, USA
-  tags: [Broader Area]
+  tags: [BroaderArea]
 
 - name: Usenix 2022
   description: Usenix Security Symposium
@@ -119,7 +119,7 @@
   comment: 3 review cycles
   date: "August 10-12"
   place: Boston, MA, USA.
-  tags: [Broader Area]
+  tags: [BroaderArea]
 
 - name: NDSS 2022
   description: ISOC Network and Distributed System Security Symposium
@@ -131,5 +131,5 @@
     - "2021-07-23 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA
-  tags: [Broader Area]
+  tags: [BroaderArea]
 
