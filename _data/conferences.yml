@@ -1,4 +1,17 @@
 - name: NSDI
+  year: 2024
+  date: "April 16 - 18 2024"
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/confrence/nsdi24/
+  comment: Two deadlines
+  deadline:
+    - "2023-05-04 8:59"
+    - "2023-09-14 8:59"
+  place: Santa Clara, CA, USA
+  tags: [Bullseye]
+
+
+- name: NSDI
   year: 2023
   date: "April 17 – 19 2023"
   description: USENIX Symposium on Networked Systems Design and Implementation
@@ -8,7 +21,7 @@
     - "2022-04-20 23:59"
     - "2022-09-20 23:59"
   place: Boston, MA, USA
-  tags: [T0]
+  tags: [Bullseye]
   
 - name: SIGCOMM
   year: 2022
@@ -17,7 +30,7 @@
   link: https://conferences.sigcomm.org/sigcomm/2022/
   deadline: "2022-02-02 23:59"
   place: Amsterdam, the Netherlands
-  tags: [T0]
+  tags: [Bullseye]
 
 - name: MobiCom 
   description: The 28th Annual International Conference on Mobile Computing and Networking 
@@ -29,7 +42,7 @@
     - "2022-03-25 23:59"
   date: "Dec 2022"
   place: Sydney, Australia
-  tags: [T0, T1]
+  tags: [Bullseye]
 
 - name: Oakland
   description: IEEE Symposium on Security and Privacy
@@ -42,7 +55,7 @@
     - "2022-12-02 23:59"
   date: "May 2023"
   place: "San Francisco, CA, United States"
-  tags: [T0, Related]
+  tags: [Broader Area]
 
 - name: Sensys
   description: ACM Conference on Embedded Networked Sensor Systems
@@ -51,7 +64,7 @@
   deadline: "2022-06-07 23:59"
   place: Boston, MA, United States
   date: "Nov 2022"
-  tags: [T0, T1]
+  tags: [Good]
 
 - name: CCS
   description: ACM Conference on Computer and Communications Security
@@ -63,7 +76,7 @@
   comment: 2 review cycles
   date: "November 14-19"
   place: Los Angeles, USA
-  tags: [Related]
+  tags: [Broader Area]
 
 - name: Usenix
   description: Usenix Security Symposium
@@ -76,7 +89,7 @@
   comment: 3 review cycles
   date: "August 10-12"
   place: Boston, MA, USA.
-  tags: [Related]
+  tags: [Broader Area]
 
 - name: NDSS
   description: ISOC Network and Distributed System Security Symposium
@@ -88,5 +101,5 @@
     - "2021-07-23 23:59"
   date: "February 27 - March 3"
   place: San Diego, CA, USA
-  tags: [Related]
+  tags: [Broader Area]
 

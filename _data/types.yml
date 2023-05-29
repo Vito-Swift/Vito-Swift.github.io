@@ -1,7 +1,7 @@
 ---
-- name: Tier 0
-  tag: T0
-- name: Tier 1
-  tag: T1
-- name: Related
-  tag: Related
+- name: Bullseye
+  tag: Bullseye
+- name: Good
+  tag: Good
+- name: Broader Area
+  tag: Broader Area
