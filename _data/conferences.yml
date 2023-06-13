@@ -39,7 +39,7 @@
   deadline: "2023-12-13 23:59"
   timezone: Etc/GMT+8
   place: Santa Clara, CA, United States
-  tags: [Good, BroaderArea]
+  tags: [BroaderArea]
 
 - name: MobiCom (Exp.)
   description: The 30th Annual International Conference on Mobile Computing and Networking 
