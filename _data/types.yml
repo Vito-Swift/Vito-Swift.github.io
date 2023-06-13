@@ -1,7 +1,7 @@
 ---
 - name: Bullseye
   tag: Bullseye
-- name: Good but also many unqualified papers
+- name: Fair
   tag: Good
 - name: Broader Area
   tag: BroaderArea
