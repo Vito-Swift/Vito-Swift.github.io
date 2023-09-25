@@ -21,25 +21,25 @@
   place: Santa Clara, CA, USA
   tags: [Bullseye]
   
-- name: ATC (Exp.)
-  description: USENIX Annual Technical Conference
-  year: 2024
-  link: https://www.usenix.org/conference/usenixatc24
-  date: "July 10 - 12 2024"
-  deadline: "2023-12-13 23:59"
-  timezone: Etc/GMT+8
-  place: Santa Clara, CA, United States
-  tags: [Good, BroaderArea]
+# - name: ATC (Exp.)
+#   description: USENIX Annual Technical Conference
+#   year: 2024
+#   link: https://www.usenix.org/conference/usenixatc24
+#   date: "July 10 - 12 2024"
+#   deadline: "2023-12-13 23:59"
+#   timezone: Etc/GMT+8
+#   place: Santa Clara, CA, United States
+#   tags: [Good, BroaderArea]
 
-- name: OSDI (Exp.)
-  description: USENIX Symposium on Operating Systems Design and Implementation
-  year: 2024
-  link: https://www.usenix.org/conference/osdi24
-  date: "July 10 - 12 2024"
-  deadline: "2023-12-13 23:59"
-  timezone: Etc/GMT+8
-  place: Santa Clara, CA, United States
-  tags: [BroaderArea]
+# - name: OSDI (Exp.)
+#   description: USENIX Symposium on Operating Systems Design and Implementation
+#   year: 2024
+#   link: https://www.usenix.org/conference/osdi24
+#   date: "July 10 - 12 2024"
+#   deadline: "2023-12-13 23:59"
+#   timezone: Etc/GMT+8
+#   place: Santa Clara, CA, United States
+#   tags: [BroaderArea]
 
 - name: MobiCom (Exp.)
   description: The 30th Annual International Conference on Mobile Computing and Networking 
@@ -65,14 +65,14 @@
   place: Madrid, Spain
   tags: [Bullseye]
 
-- name: Sensys
-  year: 2023
-  date: "November 13 - 15 2023"
-  description: ACM Conference on Embedded Networked Sensor Systems
-  link: https://sensys.acm.org/2023/
-  deadline: "2023-06-29 23:59"
-  place: Istanbul, Turkiye
-  tags: [Good]
+# - name: Sensys
+#   year: 2023
+#   date: "November 13 - 15 2023"
+#   description: ACM Conference on Embedded Networked Sensor Systems
+#   link: https://sensys.acm.org/2023/
+#   deadline: "2023-06-29 23:59"
+#   place: Istanbul, Turkiye
+#   tags: [Good]
 
 - name: SIGCOMM
   year: 2023
@@ -117,62 +117,62 @@
   place: Sydney, Australia
   tags: [Bullseye]
 
-- name: Oakland
-  description: IEEE Symposium on Security and Privacy
-  year: 2023
-  link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
-  comment: Three deadlines
-  deadline:
-    - "2022-04-01 23:59"
-    - "2022-08-19 23:59"
-    - "2022-12-02 23:59"
-  date: "May 2023"
-  place: "San Francisco, CA, United States"
-  tags: [BroaderArea]
+# - name: Oakland
+#   description: IEEE Symposium on Security and Privacy
+#   year: 2023
+#   link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
+#   comment: Three deadlines
+#   deadline:
+#     - "2022-04-01 23:59"
+#     - "2022-08-19 23:59"
+#     - "2022-12-02 23:59"
+#   date: "May 2023"
+#   place: "San Francisco, CA, United States"
+#   tags: [BroaderArea]
 
-- name: Sensys
-  description: ACM Conference on Embedded Networked Sensor Systems
-  year: 2022
-  link: https://sensys.acm.org/2021/
-  deadline: "2022-06-07 23:59"
-  place: Boston, MA, United States
-  date: "Nov 2022"
-  tags: [Good]
+# - name: Sensys
+#   description: ACM Conference on Embedded Networked Sensor Systems
+#   year: 2022
+#   link: https://sensys.acm.org/2021/
+#   deadline: "2022-06-07 23:59"
+#   place: Boston, MA, United States
+#   date: "Nov 2022"
+#   tags: [Good]
 
-- name: CCS
-  description: ACM Conference on Computer and Communications Security
-  year: 2022
-  link: https://www.sigsac.org/ccs/CCS2022/
-  deadline:
-    - "2022-01-14 23:59"
-    - "2022-05-02 23:59"
-  comment: 2 review cycles
-  date: "November 14-19"
-  place: Los Angeles, USA
-  tags: [BroaderArea]
+# - name: CCS
+#   description: ACM Conference on Computer and Communications Security
+#   year: 2022
+#   link: https://www.sigsac.org/ccs/CCS2022/
+#   deadline:
+#     - "2022-01-14 23:59"
+#     - "2022-05-02 23:59"
+#   comment: 2 review cycles
+#   date: "November 14-19"
+#   place: Los Angeles, USA
+#   tags: [BroaderArea]
 
-- name: Usenix
-  description: Usenix Security Symposium
-  year: 2022
-  link: https://www.usenix.org/conference/usenixsecurity22
-  deadline:
-    - "2021-06-08 23:59"
-    - "2021-10-12 23:59"
-    - "2022-02-01 23:59"
-  comment: 3 review cycles
-  date: "August 10-12"
-  place: Boston, MA, USA.
-  tags: [BroaderArea]
+# - name: Usenix
+#   description: Usenix Security Symposium
+#   year: 2022
+#   link: https://www.usenix.org/conference/usenixsecurity22
+#   deadline:
+#     - "2021-06-08 23:59"
+#     - "2021-10-12 23:59"
+#     - "2022-02-01 23:59"
+#   comment: 3 review cycles
+#   date: "August 10-12"
+#   place: Boston, MA, USA.
+#   tags: [BroaderArea]
 
-- name: NDSS
-  description: ISOC Network and Distributed System Security Symposium
-  year: 2022
-  link: https://www.ndss-symposium.org/ndss2022/
-  comment: 2 review cycles
-  deadline:
-    - "2021-05-21 23:59"
-    - "2021-07-23 23:59"
-  date: "February 27 - March 3"
-  place: San Diego, CA, USA
-  tags: [BroaderArea]
+# - name: NDSS
+#   description: ISOC Network and Distributed System Security Symposium
+#   year: 2022
+#   link: https://www.ndss-symposium.org/ndss2022/
+#   comment: 2 review cycles
+#   deadline:
+#     - "2021-05-21 23:59"
+#     - "2021-07-23 23:59"
+#   date: "February 27 - March 3"
+#   place: San Diego, CA, USA
+#   tags: [BroaderArea]
 
