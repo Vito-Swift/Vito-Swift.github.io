@@ -1,11 +1,11 @@
-- name: SIGCOMM (Exp.)
+- name: SIGCOMM
   year: 2024
   date: "September 10 - 14 2024"
   description: ACM Special Interest Group on Data Communication
   link: https://conferences.sigcomm.org/sigcomm/2024/
-  deadline: "2024-02-15 23:59"
+  deadline: "2024-01-31 23:59"
   timezone: Etc/UTC
-  place: (TBD) Wild card
+  place: Sydney, Australia
   tags: [Bullseye]
 
 - name: NSDI
