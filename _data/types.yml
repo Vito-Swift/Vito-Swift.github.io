@@ -1,7 +1,7 @@
 ---
 - name: Bullseye
   tag: Bullseye
-- name: Fair
-  tag: Good
-- name: Broader Area
-  tag: BroaderArea
+# - name: Fair
+#   tag: Good
+# - name: Broader Area
+#   tag: BroaderArea
