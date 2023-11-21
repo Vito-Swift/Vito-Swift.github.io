@@ -51,7 +51,7 @@
   date: "Oct 2 - 6 2024"
   timezone: Etc/GMT+8
   place: TBD
-  tags: [Bullseye]
+  tags: [Related]
 
 - name: MobiCom
   description: The 29th Annual International Conference on Mobile Computing and Networking 
@@ -63,7 +63,7 @@
   date: "Oct 2 - 6 2023"
   timezone: Etc/GMT+8
   place: Madrid, Spain
-  tags: [Bullseye]
+  tags: [Related]
 
 # - name: Sensys
 #   year: 2023
@@ -115,7 +115,7 @@
     - "2022-03-25 23:59"
   date: "Dec 2022"
   place: Sydney, Australia
-  tags: [Bullseye]
+  tags: [Related]
 
 # - name: Oakland
 #   description: IEEE Symposium on Security and Privacy
