@@ -1,6 +1,8 @@
 ---
 - name: Bullseye
   tag: Bullseye
+- name: Related
+  tag: Related
 # - name: Fair
 #   tag: Good
 # - name: Broader Area
