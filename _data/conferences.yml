@@ -9,6 +9,19 @@
   tags: [Bullseye]
 
 - name: NSDI
+  year: 2025
+  date: "April 28 - 30 2025"
+  description: USENIX Symposium on Networked Systems Design and Implementation
+  link: https://www.usenix.org/confrence/nsdi24/
+  comment: Two deadlines
+  deadline:
+    - "2024-05-07 11:59"
+    - "2024-09-19 11:59"
+  timezone: Etc/GMT+8
+  place: Philadelphia, PA, USA
+  tags: [Bullseye]
+
+- name: NSDI
   year: 2024
   date: "April 16 - 18 2024"
   description: USENIX Symposium on Networked Systems Design and Implementation
