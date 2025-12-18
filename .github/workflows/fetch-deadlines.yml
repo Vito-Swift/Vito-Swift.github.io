@@ -1,0 +1,51 @@
+name: Generate Jekyll data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *" # 每天 UTC 03:00 跑一次（你可改）
+
+permissions:
+  contents: write
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai pyyaml tqdm
+
+      - name: Generate _data files
+        env:
+          POE_API_KEY: ${{ secrets.POE_API_KEY }}
+          # 可选：如果你想用不同模型/URL
+          # POE_MODEL: "GPT-5.2"
+          # POE_BASE_URL: "https://api.poe.com/v1"
+        run: |
+          python scripts/generate_conferences.py
+
+      - name: Commit and push if changed
+        run: |
+          git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add _data/conferences.yml _data/types.yml
+            git commit -m "chore: update conferences/types data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
