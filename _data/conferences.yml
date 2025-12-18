@@ -1,191 +1,127 @@
 - name: SIGCOMM
-  year: 2024
-  date: "September 10 - 14 2024"
-  description: ACM Special Interest Group on Data Communication
-  link: https://conferences.sigcomm.org/sigcomm/2024/
-  deadline: "2024-02-01 20:59"
+  year: 2026
+  date: August 2026
+  description: ACM SIGCOMM is the flagship annual conference of the ACM Special Interest
+    Group on Data Communication (SIGCOMM).
+  link: https://conferences.sigcomm.org/sigcomm/2026/
+  comment: Official site lists the paper submission deadline as 'Friday, February
+    6, 2026 AoE' but only states the conference timing as 'August 2026' (no exact
+    days) on the homepage.
+  type: networking
+  tags:
+  - networking
+  deadline: '2026-02-07 07:59:00'
   timezone: Etc/GMT+8
-  place: Sydney, Australia
-  tags: [Bullseye]
-
-- name: NSDI
+  place: Denver, Colorado, USA
+- name: SIGCOMM
   year: 2025
-  date: "April 28 - 30 2025"
-  description: USENIX Symposium on Networked Systems Design and Implementation
-  link: https://www.usenix.org/confrence/nsdi24/
-  comment: Two deadlines
-  deadline:
-    - "2024-05-07 11:59"
-    - "2024-09-19 11:59"
+  date: September 8 – 11, 2025
+  description: ACM SIGCOMM is the flagship annual conference of the ACM Special Interest
+    Group on Data Communication (SIGCOMM).
+  link: https://conferences.sigcomm.org/sigcomm/2025/
+  comment: Paper submission deadline is listed in UTC on the CFP.
+  type: networking
+  tags:
+  - networking
+  deadline: '2025-02-01 07:59:00'
   timezone: Etc/GMT+8
-  place: Philadelphia, PA, USA
-  tags: [Bullseye]
-
-- name: NSDI
-  year: 2024
-  date: "April 16 - 18 2024"
-  description: USENIX Symposium on Networked Systems Design and Implementation
-  link: https://www.usenix.org/confrence/nsdi24/
-  comment: Two deadlines
-  deadline:
-    - "2023-05-04 20:59"
-    - "2023-09-14 20:59"
-  timezone: Etc/GMT+8
-  place: Santa Clara, CA, USA
-  tags: [Bullseye]
-  
-# - name: ATC (Exp.)
-#   description: USENIX Annual Technical Conference
-#   year: 2024
-#   link: https://www.usenix.org/conference/usenixatc24
-#   date: "July 10 - 12 2024"
-#   deadline: "2023-12-13 23:59"
-#   timezone: Etc/GMT+8
-#   place: Santa Clara, CA, United States
-#   tags: [Good, BroaderArea]
-
-# - name: OSDI (Exp.)
-#   description: USENIX Symposium on Operating Systems Design and Implementation
-#   year: 2024
-#   link: https://www.usenix.org/conference/osdi24
-#   date: "July 10 - 12 2024"
-#   deadline: "2023-12-13 23:59"
-#   timezone: Etc/GMT+8
-#   place: Santa Clara, CA, United States
-#   tags: [BroaderArea]
-
-- name: MobiCom (Exp.)
-  description: The 30th Annual International Conference on Mobile Computing and Networking 
-  year: 2024
-  link: https://www.sigmobile.org/mobicom/2024/
-  deadline: 
-    - "2023-08-19 23:59"
-    - "2024-03-17 23:59"
-  date: "Oct 2 - 6 2024"
-  timezone: Etc/GMT+8
-  place: TBD
-  tags: [Related]
-
-- name: MobiCom
-  description: The 29th Annual International Conference on Mobile Computing and Networking 
-  year: 2023
-  link: https://www.sigmobile.org/mobicom/2023/
-  deadline: 
-    - "2022-08-19 23:59"
-    - "2023-03-17 23:59"
-  date: "Oct 2 - 6 2023"
-  timezone: Etc/GMT+8
-  place: Madrid, Spain
-  tags: [Related]
-
-# - name: Sensys
-#   year: 2023
-#   date: "November 13 - 15 2023"
-#   description: ACM Conference on Embedded Networked Sensor Systems
-#   link: https://sensys.acm.org/2023/
-#   deadline: "2023-06-29 23:59"
-#   place: Istanbul, Turkiye
-#   tags: [Good]
-
+  place: Coimbra, Portugal
 - name: SIGCOMM
-  year: 2023
-  date: "September 10 - 14 2023"
-  description: ACM Special Interest Group on Data Communication
-  link: https://conferences.sigcomm.org/sigcomm/2023/
-  deadline: "2023-02-15 23:59"
-  timezone: Etc/UTC
-  place: New York City, USA
-  tags: [Bullseye]
-
-- name: NSDI
-  year: 2023
-  date: "April 17 – 19 2023"
-  description: USENIX Symposium on Networked Systems Design and Implementation
-  link: https://www.usenix.org/conference/nsdi23
-  comment: Two deadlines
-  deadline:
-    - "2022-04-20 23:59"
-    - "2022-09-20 23:59"
-  place: Boston, MA, USA
-  tags: [Bullseye]
-  
-- name: SIGCOMM
-  year: 2022
-  date: "August 22 – 26 2022"
-  description: ACM Special Interest Group on Data Communication
-  link: https://conferences.sigcomm.org/sigcomm/2022/
-  deadline: "2022-02-02 23:59"
-  place: Amsterdam, the Netherlands
-  tags: [Bullseye]
-
-- name: MobiCom
-  description: The 28th Annual International Conference on Mobile Computing and Networking 
-  year: 2022
-  link: https://www.sigmobile.org/mobicom/2022/
-  comment: Two deadlines
-  deadline: 
-    - "2021-08-20 23:59"
-    - "2022-03-25 23:59"
-  date: "Dec 2022"
+  year: 2024
+  date: August 4 - 8, 2024
+  description: ACM SIGCOMM is the flagship annual conference of the ACM Special Interest
+    Group on Data Communication (SIGCOMM).
+  link: https://conferences.sigcomm.org/sigcomm/2024/
+  comment: Paper submission deadline is listed in UTC on the CFP.
+  type: networking
+  tags:
+  - networking
+  deadline: '2024-02-03 07:59:00'
+  timezone: Etc/GMT+8
   place: Sydney, Australia
-  tags: [Related]
-
-# - name: Oakland
-#   description: IEEE Symposium on Security and Privacy
-#   year: 2023
-#   link: https://www.ieee-security.org/TC/SP2023/cfpapers.html
-#   comment: Three deadlines
-#   deadline:
-#     - "2022-04-01 23:59"
-#     - "2022-08-19 23:59"
-#     - "2022-12-02 23:59"
-#   date: "May 2023"
-#   place: "San Francisco, CA, United States"
-#   tags: [BroaderArea]
-
-# - name: Sensys
-#   description: ACM Conference on Embedded Networked Sensor Systems
-#   year: 2022
-#   link: https://sensys.acm.org/2021/
-#   deadline: "2022-06-07 23:59"
-#   place: Boston, MA, United States
-#   date: "Nov 2022"
-#   tags: [Good]
-
-# - name: CCS
-#   description: ACM Conference on Computer and Communications Security
-#   year: 2022
-#   link: https://www.sigsac.org/ccs/CCS2022/
-#   deadline:
-#     - "2022-01-14 23:59"
-#     - "2022-05-02 23:59"
-#   comment: 2 review cycles
-#   date: "November 14-19"
-#   place: Los Angeles, USA
-#   tags: [BroaderArea]
-
-# - name: Usenix
-#   description: Usenix Security Symposium
-#   year: 2022
-#   link: https://www.usenix.org/conference/usenixsecurity22
-#   deadline:
-#     - "2021-06-08 23:59"
-#     - "2021-10-12 23:59"
-#     - "2022-02-01 23:59"
-#   comment: 3 review cycles
-#   date: "August 10-12"
-#   place: Boston, MA, USA.
-#   tags: [BroaderArea]
-
-# - name: NDSS
-#   description: ISOC Network and Distributed System Security Symposium
-#   year: 2022
-#   link: https://www.ndss-symposium.org/ndss2022/
-#   comment: 2 review cycles
-#   deadline:
-#     - "2021-05-21 23:59"
-#     - "2021-07-23 23:59"
-#   date: "February 27 - March 3"
-#   place: San Diego, CA, USA
-#   tags: [BroaderArea]
-
+- name: MobiCom
+  year: 2026
+  date: Nov, 2026
+  description: The 32nd Annual International Conference on Mobile Computing and Networking.
+  link: https://www.sigmobile.org/mobicom/2026/cfp.html
+  comment: 'Multiple deadlines: CFP lists two cycles (Summer and Winter). Only the
+    Summer cycle has concrete dates; Winter cycle is ''TBD''. Conference dates are
+    only given as ''Nov, 2026'' (no exact days).'
+  type: networking
+  tags:
+  - networking
+  deadline:
+  - '2025-09-04 07:59:00'
+  timezone: Etc/GMT+8
+  place: Austin, Texas, USA
+- name: MobiCom
+  year: 2025
+  date: Nov. 4-8, 2025
+  description: The 31st Annual International Conference on Mobile Computing and Networking.
+  link: https://www.sigmobile.org/mobicom/2025/index.html
+  comment: 'Multiple deadlines: CFP lists Summer and Winter paper submission deadlines
+    (both are main-conference full-paper deadlines).'
+  type: networking
+  tags:
+  - networking
+  deadline:
+  - '2024-09-06 07:59:00'
+  - '2025-03-19 07:59:00'
+  timezone: Etc/GMT+8
+  place: Hong Kong, China
+- name: MobiCom
+  year: 2024
+  description: The 30th Annual International Conference on Mobile Computing and Networking.
+  link: https://www.sigmobile.org/mobicom/2024/cfp.html
+  comment: 'Multiple deadlines: CFP lists Summer and Winter paper submission deadlines
+    (both are main-conference full-paper deadlines). The conference date/location
+    were not present in the CFP excerpted sections used here, so date/place are left
+    null.'
+  type: networking
+  tags:
+  - networking
+  deadline:
+  - '2023-08-26 07:59:00'
+  - '2024-03-16 07:59:00'
+  timezone: Etc/GMT+8
+- name: SenSys
+  year: 2026
+  date: May 11-14, 2026
+  description: ACM/IEEE International Conference on Embedded Artificial Intelligence
+    and Sensing Systems.
+  link: https://sensys.acm.org/2026/
+  comment: 'Multiple deadlines: site lists multiple ''Call for Papers'' deadlines;
+    using the ''2nd deadline Call for Papers'' Full Paper Submission (Nov 13, 2025,
+    23:59 AoE) as the main-conference full-paper submission deadline.'
+  type: others
+  tags:
+  - others
+  deadline: '2025-11-14 07:59:00'
+  timezone: Etc/GMT+8
+  place: Saint-Malo, France
+- name: SenSys
+  year: 2025
+  date: May 6-9, 2025
+  description: The 23rd ACM Conference on Embedded Networked Sensor Systems.
+  link: https://sensys.acm.org/2025/index.html
+  comment: Paper submission deadline is explicitly listed as November 14, 2024, 23:59
+    AoE.
+  type: others
+  tags:
+  - others
+  deadline: '2024-11-15 07:59:00'
+  timezone: Etc/GMT+8
+- name: SenSys
+  year: 2024
+  date: 4-7 November 2024
+  description: The 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys
+    2024).
+  link: https://sensys.acm.org/2024/
+  comment: Paper submission deadline is explicitly listed as July 1st, 2024, 23:59
+    AoE.
+  type: others
+  tags:
+  - others
+  deadline: '2024-07-02 07:59:00'
+  timezone: Etc/GMT+8
+  place: Hangzhou, China
