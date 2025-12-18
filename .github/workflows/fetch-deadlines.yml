@@ -3,7 +3,7 @@ name: Generate Jekyll data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *" # 每天 UTC 03:00 跑一次（你可改）
+    - cron: "0 3 * * 1" # 每天 UTC 03:00 跑一次（你可改）
 
 permissions:
   contents: write
