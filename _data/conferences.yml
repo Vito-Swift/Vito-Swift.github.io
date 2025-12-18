@@ -479,6 +479,7 @@
     - security
   place: San Diego, CA, USA
   deadline: 2024-04-23 23:59
+  timezone: Etc/GMT+8
 - name: USENIX Security
   year: 2026
   date: August 12–14, 2026
