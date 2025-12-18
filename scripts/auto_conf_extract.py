@@ -108,7 +108,8 @@ def call_poe(system_prompt: str, user_prompt: str):
 
 def main():
     series = ["SIGCOMM", "MobiCom", "SenSys", "NSDI", "Mobisys",
-              "OSDI", "SOSP", "ASPLOS", "Eurosys", "Sigmetrics"]
+              "OSDI", "SOSP", "ASPLOS", "Eurosys", "Sigmetrics",
+              "CCS", "IEEE S&P", "NDSS", "USENIX Security"]
 
     user_prompt = USER_PROMPT_TEMPLATE.format(
         series_json=json.dumps(series, ensure_ascii=False),
