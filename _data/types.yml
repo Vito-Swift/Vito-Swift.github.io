@@ -1,4 +1,3 @@
----
 - name: Networking
   tag: networking
 - name: Architecture
@@ -7,7 +6,3 @@
   tag: security
 - name: Others
   tag: others
-# - name: Fair
-#   tag: Good
-# - name: Broader Area
-#   tag: BroaderArea
