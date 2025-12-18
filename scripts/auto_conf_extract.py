@@ -28,7 +28,7 @@ Recent editions selection rule (very important):
        - If 2026 is announced: [2026, 2025, 2024]
        - If 2026 not announced: [2025, 2024] (and optionally 2023 if you want 3 past; but only if you still want 3 items)
 - Do NOT invent a future edition if you cannot find an official page for it.
-- If fewer than 3 confirmed editions exist from official sources, output only the confirmed ones and explain in comment.
+- If fewer than 3 confirmed editions exist from official sources, output only the confirmed ones.
 
 If the future edition (current_year+1) is not officially announced, do NOT backfill with older years just to reach 3 items. Output only the editions that have official pages with dates/deadlines (typically current_year and current_year-1).
 
@@ -45,7 +45,7 @@ For each conference edition, output these fields (use null if unknown):
 - date: string|null                 // keep official display style when possible
 - description: string|null          // full name or one-sentence description
 - link: string|null                 // official website for that year/edition
-- comment: string|null              // explain assumptions/uncertainty
+- comment: string|null              // explain assumptions/uncertainty (within one sentence)
 - type: "networking"|"architecture"|"security"|"others"
 - tags: array of strings            // MUST exist; include the type tag as one element
 - deadline: string|array|null       // main-conference full-paper submission deadline only
