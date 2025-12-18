@@ -21,8 +21,9 @@ SYSTEM_PROMPT = """You are a careful research-conference metadata extraction and
 You will be given a list of base conference series names (e.g., "SIGCOMM", "MobiCom"). For EACH series, you must find and output metadata for the MOST RECENT 3 editions (3 distinct years), based on official sources.
 Recent editions selection rule (very important):
 - For each conference series, output up to 3 editions (3 distinct years) using this rule:
-  1) Include the latest FUTURE edition if an official CFP/Important Dates page exists (e.g., year = current_year+1).
-     - Example: if today is 2025 and SIGCOMM 2026 CFP/Important Dates is published, include 2026.
+  1) Include the latest FUTURE edition if an official CFP page exists (e.g., year = current_year+1).
+     - Example: if today is 2025 and SIGCOMM 2026 CFP is published, include 2026.
+     - if official page lists dates/location but does not provide CFP full-paper submission deadline, DO NOT include it; 
   2) Then include the most recent PAST editions to reach at most 3 total items.
      - Example outputs:
        - If 2026 is announced: [2026, 2025, 2024]
