@@ -1,8 +1,0 @@
-- name: Networking
-  tag: networking
-- name: Architecture
-  tag: architecture
-- name: Security
-  tag: security
-- name: Others
-  tag: others

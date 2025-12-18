@@ -4,9 +4,10 @@ import yaml
 import openai
 from tqdm import tqdm
 import datetime
+from pathlib import Path
 
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
+# os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"
+# os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
 
 TYPES = [
     {"name": "Networking", "tag": "networking"},
@@ -83,7 +84,7 @@ Remember: output STRICT JSON only, with top-level key "conferences".
 
 
 def call_poe(system_prompt: str, user_prompt: str):
-    api_key = "REDACTED"
+    api_key = os.getenv("POE_API_KEY") or os.getenv("API_KEY")
     url = "https://api.poe.com/v1"
     client = openai.OpenAI(
         api_key=api_key,
@@ -105,7 +106,8 @@ def call_poe(system_prompt: str, user_prompt: str):
 
 
 def main():
-    series = ["SIGCOMM", "MobiCom", "SenSys"]
+    series = ["SIGCOMM", "MobiCom", "SenSys", "NSDI", "Mobisys",
+              "OSDI", "SOSP", "ASPLOS", "Eurosys", "Sigmetrics"]
 
     user_prompt = USER_PROMPT_TEMPLATE.format(
         series_json=json.dumps(series, ensure_ascii=False),
@@ -139,11 +141,18 @@ def main():
         cleaned.append(c2)
     print(cleaned)
 
-    with open("conferences.generated.yml", "w", encoding="utf-8") as f:
+    project_root = Path(__file__).resolve().parents[1]
+    data_dir = project_root / "_data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    conferences_path = data_dir / "conferences.yml"
+    types_path = data_dir / "types.yml"
+
+    with open(conferences_path, "w", encoding="utf-8") as f:
         f.write(yaml.safe_dump(cleaned, sort_keys=False, allow_unicode=True))
 
-    with open("types.generated.yml", "w", encoding="utf-8") as f:
+    with open(types_path, "w", encoding="utf-8") as f:
         f.write(yaml.safe_dump(TYPES, sort_keys=False, allow_unicode=True))
+    print(f"Wrote {conferences_path} and {types_path}")
 
 
 if __name__ == '__main__':
