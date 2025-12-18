@@ -35,7 +35,7 @@ jobs:
           # POE_MODEL: "GPT-5.2"
           # POE_BASE_URL: "https://api.poe.com/v1"
         run: |
-          python scripts/generate_conferences.py
+          python scripts/auto_conf_extract.py
 
       - name: Commit and push if changed
         run: |
