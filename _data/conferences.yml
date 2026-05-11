@@ -1,23 +1,20 @@
 - name: SIGCOMM
   year: 2026
   date: August 17 - 21, 2026
-  description: ACM SIGCOMM 2026 (40th edition), flagship conference on data communication
-    networks and networked systems.
+  description: ACM SIGCOMM 2026 (40th edition), ACM SIGCOMM Conference on Data Communication.
   link: https://conferences.sigcomm.org/sigcomm/2026/
-  comment: Deadline time is specified as AoE on the official CFP; converted to Etc/GMT+8.
   type: networking
   tags:
   - networking
-  deadline: 2026-02-07 07:59
+  deadline: 2026-02-07 11:59
   timezone: Etc/GMT+8
-  place: Denver, Colorado, USA
+  place: Denver, CO, USA
 - name: SIGCOMM
   year: 2025
   date: September 8 - 11, 2025
-  description: ACM SIGCOMM 2025 (39th edition), flagship conference on data communication
-    networks and networked systems.
-  link: https://conferences.sigcomm.org/sigcomm/2025/
-  comment: Deadline time is specified as UTC on the official CFP; converted to Etc/GMT+8.
+  description: ACM SIGCOMM 2025 (39th edition), ACM SIGCOMM Conference on Data Communication.
+  link: https://conferences.sigcomm.org/sigcomm/2025/cfp/
+  comment: Deadline time given in UTC on official CFP; converted to Etc/GMT+8.
   type: networking
   tags:
   - networking
@@ -26,179 +23,154 @@
   place: Coimbra, Portugal
 - name: SIGCOMM
   year: 2024
-  date: August 4 - 8, 2024
-  description: ACM SIGCOMM 2024 (38th edition), flagship conference on data communication
-    networks and networked systems.
-  link: https://conferences.sigcomm.org/sigcomm/2024/
-  comment: Deadline time is specified as UTC on the official CFP; converted to Etc/GMT+8.
+  date: August 4-8, 2024
+  description: ACM SIGCOMM 2024, ACM SIGCOMM Conference on Data Communication.
+  link: https://conferences.sigcomm.org/sigcomm/2024/cfp/
+  comment: deadline not found on official pages
   type: networking
   tags:
   - networking
-  deadline: 2024-02-03 07:59
-  timezone: Etc/GMT+8
   place: Sydney, Australia
 - name: MobiCom
   year: 2026
-  description: The 32nd Annual International Conference on Mobile Computing and Networking
-    (MobiCom 2026).
-  link: https://www.sigmobile.org/mobicom/2026/cfp.html
-  comment: Multiple deadlines (two paper-submission rounds) on the official CFP; converted
-    from AoE to Etc/GMT+8.
+  description: 'ACM MobiCom 2026: The 32nd Annual International Conference on Mobile
+    Computing and Networking.'
+  link: https://www.sigmobile.org/mobicom/2026/
+  comment: Multiple deadlines (multi-deadline model); only main-conference paper submission
+    deadlines included.
   type: networking
   tags:
   - networking
   deadline:
-  - 2025-08-28 07:59
-  - 2026-03-07 07:59
+  - 2026-03-14 11:59
   timezone: Etc/GMT+8
 - name: MobiCom
   year: 2025
-  description: The 31st Annual International Conference on Mobile Computing and Networking
-    (MobiCom 2025).
-  link: https://www.sigmobile.org/mobicom/2025/cfp.html
-  comment: Multiple deadlines (two paper-submission rounds) on the official CFP; converted
-    from AoE to Etc/GMT+8.
+  description: 'ACM MobiCom 2025: The 31st Annual International Conference on Mobile
+    Computing and Networking.'
+  link: https://www.sigmobile.org/mobicom/2025/
+  type: networking
+  tags:
+  - networking
+  deadline: 2024-09-06 11:59
+  timezone: Etc/GMT+8
+- name: MobiCom
+  year: 2024
+  description: 'ACM MobiCom 2024: The 30th Annual International Conference on Mobile
+    Computing and Networking.'
+  link: https://www.sigmobile.org/mobicom/2024/cfp.html
+  comment: Multiple deadlines (multi-deadline model); only main-conference paper submission
+    deadlines included.
   type: networking
   tags:
   - networking
   deadline:
-  - 2024-09-06 07:59
-  - 2025-03-19 07:59
+  - 2023-08-19 11:59
+  - 2024-03-09 11:59
   timezone: Etc/GMT+8
-- name: MobiCom
-  year: 2024
-  description: The 30th Annual International Conference on Mobile Computing and Networking
-    (MobiCom 2024).
-  link: https://www.sigmobile.org/mobicom/2024/cfp.html
-  comment: Full-paper submission deadlines were not found on the visible official
-    CFP page content fetched; deadline not found on official pages.
-  type: networking
-  tags:
-  - networking
 - name: SenSys
   year: 2026
-  date: May 11-14, 2026
-  description: ACM/IEEE International Conference on Embedded Artificial Intelligence
-    and Sensing Systems (SenSys 2026).
-  link: https://sensys.acm.org/2026/
-  comment: Using the 2nd-deadline full-paper submission date shown on the official
-    SenSys 2026 page; converted from AoE to Etc/GMT+8.
+  description: ACM/IEEE Conference on Embedded Artificial Intelligence and Sensing
+    Systems (SenSys 2026).
+  link: https://sensys.acm.org/2026/cfp.html
+  comment: Multiple deadlines (two-deadline process); only main-conference full-paper
+    deadlines included.
   type: others
   tags:
   - others
-  deadline: 2025-11-14 07:59
+  deadline:
+  - 2026-03-23 11:59
   timezone: Etc/GMT+8
-  place: Saint-Malo, France
 - name: SenSys
   year: 2025
-  description: The 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys
-    2025).
+  description: 'ACM SenSys 2025: ACM Conference on Embedded Networked Sensor Systems.'
   link: https://sensys.acm.org/2025/cfp.html
-  comment: Deadline time is specified as AoE on the official CFP; converted to Etc/GMT+8.
   type: others
   tags:
   - others
-  deadline: 2024-11-15 07:59
+  deadline: 2024-11-15 11:59
   timezone: Etc/GMT+8
 - name: SenSys
   year: 2024
-  date: 4-7 November 2024
-  description: The 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys
-    2024).
-  link: https://sensys.acm.org/2024/
-  comment: Deadline time is specified as AoE on the official conference page; converted
-    to Etc/GMT+8.
+  description: 'ACM SenSys 2024: ACM Conference on Embedded Networked Sensor Systems.'
+  link: https://sensys.acm.org/2024/cfp/
   type: others
   tags:
   - others
-  deadline: 2024-07-02 07:59
+  deadline: 2024-07-02 11:59
   timezone: Etc/GMT+8
-  place: Hangzhou, China
 - name: NSDI
   year: 2026
   date: May 4–6, 2026
-  description: 23rd USENIX Symposium on Networked Systems Design and Implementation
+  description: The 23rd USENIX Symposium on Networked Systems Design and Implementation
     (NSDI '26).
   link: https://www.usenix.org/conference/nsdi26/call-for-papers
-  comment: NSDI has multiple submission deadlines; using the main full-paper submission
-    date listed on the official CFP (US PDT) and converting to Etc/GMT+8.
+  comment: deadline not found on official pages
   type: networking
   tags:
   - networking
-  deadline: 2025-04-26 11:59
-  timezone: Etc/GMT+8
   place: Renton, WA, USA
 - name: NSDI
   year: 2025
-  description: 22nd USENIX Symposium on Networked Systems Design and Implementation
+  date: April 28–30, 2025
+  description: The 22nd USENIX Symposium on Networked Systems Design and Implementation
     (NSDI '25).
   link: https://www.usenix.org/conference/nsdi25/call-for-papers
-  comment: NSDI has multiple submission deadlines; using the Spring full-paper submission
-    date listed on the official CFP (US EDT) and converting to Etc/GMT+8.
+  comment: deadline not found on official pages
   type: networking
   tags:
   - networking
-  deadline: 2024-05-08 11:59
-  timezone: Etc/GMT+8
+  place: Philadelphia, PA, USA
 - name: NSDI
   year: 2024
   date: April 16–18, 2024
-  description: 21st USENIX Symposium on Networked Systems Design and Implementation
+  description: The 21st USENIX Symposium on Networked Systems Design and Implementation
     (NSDI '24).
   link: https://www.usenix.org/conference/nsdi24/call-for-papers
-  comment: Deadline time is specified as US PDT on the official CFP; converted to
-    Etc/GMT+8.
+  comment: deadline not found on official pages
   type: networking
   tags:
   - networking
-  deadline: 2023-05-05 11:59
-  timezone: Etc/GMT+8
   place: Santa Clara, CA, USA
 - name: Mobisys
   year: 2026
-  date: Sunday, June 21st to Thursday, June 25th, 2026
   description: 'ACM MobiSys 2026: International Conference on Mobile Systems, Applications,
     and Services.'
   link: https://www.sigmobile.org/mobisys/2026/
-  comment: Deadline time is specified as AoE on the official conference page; converted
-    to Etc/GMT+8.
   type: networking
   tags:
   - networking
-  deadline: 2025-12-06 07:59
+  deadline: 2025-12-06 11:59
   timezone: Etc/GMT+8
-  place: Cambridge, UK
+  place: Cambridge, United Kingdom
 - name: Mobisys
   year: 2025
-  date: June 23rd to June 26th
-  description: 'ACM MobiSys 2025: The 23rd ACM International Conference on Mobile
-    Systems, Applications, and Services.'
-  link: https://www.sigmobile.org/mobisys/2025/
-  comment: Main-conference full-paper submission deadline not found on the official
-    MobiSys 2025 landing page; deadline not found on official pages.
+  description: 'ACM MobiSys 2025: International Conference on Mobile Systems, Applications,
+    and Services.'
+  link: https://sigmobile.org/mobisys/2025/call_for_papers/
   type: networking
   tags:
   - networking
-  place: Anaheim, CA, USA
+  deadline: 2024-12-10 11:59
+  timezone: Etc/GMT+8
 - name: Mobisys
   year: 2024
   description: 'ACM MobiSys 2024: International Conference on Mobile Systems, Applications,
     and Services.'
-  link: https://www.sigmobile.org/mobisys/2024/cfp.html
-  comment: Deadline time is specified as AoE on the official CFP; converted to Etc/GMT+8.
+  link: https://www.sigmobile.org/mobisys/2024/
   type: networking
   tags:
   - networking
-  deadline: 2023-12-01 07:59
+  deadline: 2023-12-01 11:59
   timezone: Etc/GMT+8
 - name: OSDI
   year: 2026
   date: July 13–15, 2026
-  description: 20th USENIX Symposium on Operating Systems Design and Implementation
+  description: The 20th USENIX Symposium on Operating Systems Design and Implementation
     (OSDI '26).
   link: https://www.usenix.org/conference/osdi26/call-for-papers
-  comment: Deadline time is specified as EST/UTC on the official CFP; converted to
-    Etc/GMT+8.
+  comment: Deadline time not explicitly stated on CFP; assumed 23:59 in the stated
+    timezone (no timezone stated, so assumed AoE) and converted.
   type: architecture
   tags:
   - architecture
@@ -206,213 +178,251 @@
   timezone: Etc/GMT+8
   place: Seattle, WA, USA
 - name: OSDI
-  year: 2025
-  description: 19th USENIX Symposium on Operating Systems Design and Implementation
-    (OSDI '25).
-  link: https://www.usenix.org/conference/osdi25/call-for-papers
-  comment: Deadline time is specified as EST/UTC on the official CFP; converted to
-    Etc/GMT+8.
-  type: architecture
-  tags:
-  - architecture
-  deadline: 2024-12-11 11:59
-  timezone: Etc/GMT+8
-- name: OSDI
   year: 2024
-  description: 18th USENIX Symposium on Operating Systems Design and Implementation
-    (OSDI '24).
-  link: https://www.usenix.org/node/289257
-  comment: Deadline time is specified as EST/UTC on the official CFP; converted to
-    Etc/GMT+8.
+  description: USENIX Symposium on Operating Systems Design and Implementation (OSDI
+    '24).
+  comment: deadline not found on official pages
   type: architecture
   tags:
   - architecture
-  deadline: 2023-12-08 11:59
-  timezone: Etc/GMT+8
+- name: OSDI
+  year: 2023
+  description: USENIX Symposium on Operating Systems Design and Implementation (OSDI
+    '23).
+  comment: deadline not found on official pages
+  type: architecture
+  tags:
+  - architecture
 - name: SOSP
   year: 2026
-  date: Conference September 30, 2026
-  description: The 32nd ACM Symposium on Operating Systems Principles (SOSP 2026).
+  description: 'SOSP 2026: The 32nd Symposium on Operating Systems Principles.'
   link: https://sigops.org/s/conferences/sosp/2026/cfp.html
-  comment: Deadline is specified as AoE on the official CFP; converted to Etc/GMT+8.
   type: architecture
   tags:
   - architecture
-  deadline: 2026-04-02 07:59
+  deadline: 2026-04-02 11:59
   timezone: Etc/GMT+8
 - name: SOSP
-  year: 2025
-  comment: No official SOSP 2025 CFP page with full-paper submission deadline was
-    found in the retrieved sources; edition omitted per instructions.
+  year: 2024
+  description: 'SOSP 2024: The 30th Symposium on Operating Systems Principles.'
+  link: https://sigops.org/s/conferences/sosp/2024/cfp.html
+  comment: Deadline time given in PT on official CFP; converted to Etc/GMT+8.
   type: architecture
   tags:
   - architecture
+  deadline: 2024-04-20 14:59
+  timezone: Etc/GMT+8
 - name: SOSP
-  year: 2024
-  description: The 30th Symposium on Operating Systems Principles (SOSP 2024).
-  link: https://sigops.org/s/conferences/sosp/2024/cfp.html
-  comment: Official SOSP 2024 CFP page in retrieved sources shows abstract registration
-    but not the full-paper submission deadline; deadline not found on official pages.
+  year: 2023
+  description: 'SOSP 2023: Symposium on Operating Systems Principles.'
+  comment: deadline not found on official pages
   type: architecture
   tags:
   - architecture
 - name: ASPLOS
   year: 2026
-  description: ASPLOS 2026 (ACM International Conference on Architectural Support
-    for Programming Languages and Operating Systems).
-  link: https://www.asplos-conference.org/asplos2026/cfp/
-  comment: Multiple deadlines (Spring and Summer full-paper submissions) on the official
-    CFP; times not explicitly stated for full-paper rows (only abstracts show 11:59pm
-    Eastern), so 23:59 assumed in US Eastern and converted to Etc/GMT+8 (time assumed).
+  description: 'ASPLOS 2026: ACM International Conference on Architectural Support
+    for Programming Languages and Operating Systems.'
+  link: https://www.asplos-conference.org/asplos2026/presentation-guidelines/index.html
+  comment: Multiple deadlines (spring/summer model) mentioned on CFP but exact cycles
+    not captured here; using submission deadline stated on official ASPLOS 2026 site
+    page.
   type: architecture
   tags:
   - architecture
-  deadline:
-  - 2025-03-13 11:59
-  - 2025-08-21 11:59
+  deadline: 2026-03-23 11:59
   timezone: Etc/GMT+8
+- name: ASPLOS
+  year: 2025
+  description: 'ASPLOS 2025: ACM International Conference on Architectural Support
+    for Programming Languages and Operating Systems.'
+  link: https://www.asplos-conference.org/asplos2025/cfp/
+  comment: deadline not found on official pages
+  type: architecture
+  tags:
+  - architecture
+- name: ASPLOS
+  year: 2024
+  description: 'ASPLOS 2024: ACM International Conference on Architectural Support
+    for Programming Languages and Operating Systems.'
+  link: https://www.asplos-conference.org/asplos2024/cfp/index.html
+  comment: deadline not found on official pages
+  type: architecture
+  tags:
+  - architecture
 - name: Eurosys
   year: 2026
-  description: EuroSys 2026 (ACM European Conference on Computer Systems).
+  description: 'EuroSys 2026: European Conference on Computer Systems.'
   link: https://2026.eurosys.org/cfp.html
-  comment: Full-paper submission deadlines are not visible in the retrieved portion
-    of the official CFP page; deadline not found on official pages.
+  comment: Multiple deadlines (dual-deadline model) indicated on CFP page but specific
+    dates not captured in snippet; deadline not found on official pages
+  type: architecture
+  tags:
+  - architecture
+- name: Eurosys
+  year: 2025
+  description: 'EuroSys 2025: European Conference on Computer Systems.'
+  link: https://2025.eurosys.org/cfp.html
+  comment: deadline not found on official pages
+  type: architecture
+  tags:
+  - architecture
+- name: Eurosys
+  year: 2024
+  description: 'EuroSys 2024: European Conference on Computer Systems.'
+  link: https://2024.eurosys.org/cfp.html
+  comment: deadline not found on official pages
   type: architecture
   tags:
   - architecture
 - name: Sigmetrics
   year: 2026
-  date: June 8-12, 2026
-  description: ACM SIGMETRICS 2026 (ACM SIG on Measurement and Evaluation).
+  description: SIGMETRICS 2026 (with POMACS journal-first model for SIGMETRICS presentations).
   link: https://www.sigmetrics.org/sigmetrics2026/call_for_papers.html
-  comment: SIGMETRICS has multiple (seasonal) paper deadlines; using the first listed
-    (Winter) paper-submission date on the official CFP; converted from AoE to Etc/GMT+8.
+  comment: Multiple deadlines exist for SIGMETRICS/POMACS; only the first listed paper
+    submission date captured here.
   type: others
   tags:
   - others
-  deadline: 2026-01-14 07:59
+  deadline: 2026-01-14 11:59
   timezone: Etc/GMT+8
-  place: Ann Arbor, Michigan, USA
 - name: Sigmetrics
   year: 2025
-  description: ACM SIGMETRICS 2025 (ACM SIG on Measurement and Evaluation).
+  description: SIGMETRICS 2025 (with POMACS journal-first model for SIGMETRICS presentations).
   link: https://www.sigmetrics.org/sigmetrics2025/call_for_papers.html
-  comment: SIGMETRICS 2025 has multiple deadlines but the specific paper-submission
-    dates were not present in the retrieved snippet of the official CFP; deadline
-    not found on official pages.
+  comment: deadline not found on official pages
   type: others
   tags:
   - others
 - name: Sigmetrics
   year: 2024
-  description: ACM SIGMETRICS / IFIP Performance 2024 (journal-first style via POMACS).
+  description: SIGMETRICS / IFIP Performance 2024 (with POMACS journal-first model
+    for SIGMETRICS presentations).
   link: https://www.sigmetrics.org/sigmetrics2024/call_for_papers.html
-  comment: Deadline is specified as AoE on the official CFP; converted to Etc/GMT+8.
+  comment: Multiple deadlines exist for SIGMETRICS/POMACS; only the first listed paper
+    submission date captured here.
   type: others
   tags:
   - others
-  deadline: 2024-02-01 07:59
+  deadline: 2024-02-01 11:59
   timezone: Etc/GMT+8
 - name: CCS
   year: 2026
-  description: ACM Conference on Computer and Communications Security (CCS 2026).
+  date: November 15-19, 2026
+  description: 'ACM CCS 2026: The 33rd ACM Conference on Computer and Communications
+    Security.'
   link: https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html
-  comment: Official CCS 2026 CFP page was blocked/unreadable in the retrieved sources
-    (anti-bot page), so full-paper deadline could not be extracted; deadline not found
-    on official pages.
+  comment: Multiple deadlines (review cycles). Full paper deadline not visible on
+    ACM page snippet; using IEEE Security calendar entry as secondary source.
   type: security
   tags:
   - security
-- name: CCS
-  year: 2025
-  description: ACM Conference on Computer and Communications Security (CCS 2025).
-  link: https://www.sigsac.org/ccs/CCS2025/call-for-papers/
-  comment: The official CCS 2025 CFP page was found, but full-paper submission deadlines
-    were not present in the retrieved snippet; deadline not found on official pages.
-  type: security
-  tags:
-  - security
+  deadline: 2026-04-30 11:59
+  timezone: Etc/GMT+8
+  place: The Hague, The Netherlands
 - name: CCS
   year: 2024
-  description: ACM Conference on Computer and Communications Security (CCS 2024).
+  description: 'ACM CCS 2024: ACM Conference on Computer and Communications Security.'
   link: https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html
-  comment: Multiple deadlines (two review cycles) on the official CFP; times not stated,
-    so 23:59 assumed (time assumed) and converted to Etc/GMT+8 from AoE.
+  comment: Deadline time not explicitly stated on CFP; assumed 23:59 AoE and converted.
   type: security
   tags:
   - security
-  deadline:
-  - 2024-01-29 07:59
-  - 2024-04-30 07:59
+  deadline: 2024-01-29 11:59
   timezone: Etc/GMT+8
+- name: CCS
+  year: 2023
+  description: 'ACM CCS 2023: ACM Conference on Computer and Communications Security.'
+  comment: deadline not found on official pages
+  type: security
+  tags:
+  - security
 - name: IEEE S&P
   year: 2026
-  description: 47th IEEE Symposium on Security and Privacy (IEEE S&P 2026).
-  link: https://sp2026.ieee-security.org/cfpapers.html
-  comment: Paper submission deadline was not visible in the retrieved portion of the
-    official CFP page; deadline not found on official pages.
+  date: MAY 18-21, 2026
+  description: IEEE Symposium on Security and Privacy 2026.
+  link: https://www.ieee-security.org/TC/SP2026/cfpapers.html
+  comment: Multiple deadlines (submission cycles) exist; full paper deadlines not
+    found on official CFP page snippet.
+  type: security
+  tags:
+  - security
+  place: San Francisco, CA, USA
+- name: IEEE S&P
+  year: 2025
+  description: IEEE Symposium on Security and Privacy 2025.
+  comment: deadline not found on official pages
+  type: security
+  tags:
+  - security
+- name: IEEE S&P
+  year: 2024
+  description: IEEE Symposium on Security and Privacy 2024.
+  comment: deadline not found on official pages
+  type: security
+  tags:
+  - security
+- name: NDSS
+  year: 2027
+  description: 'NDSS Symposium 2027: Network and Distributed System Security Symposium.'
+  link: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
+  comment: deadline not found on official pages
   type: security
   tags:
   - security
 - name: NDSS
   year: 2026
-  description: Network and Distributed System Security Symposium (NDSS) 2026.
+  date: 23 to 27 February 2026
+  description: 'NDSS Symposium 2026: Network and Distributed System Security Symposium.'
   link: https://www.ndss-symposium.org/ndss2026/submissions/call-for-papers/
-  comment: The official CFP content retrieved did not include the paper submission
-    deadlines table; deadline not found on official pages.
+  comment: Multiple deadlines (summer/fall cycles) exist; specific paper submission
+    dates not found on official NDSS CFP page snippet, so using IEEE Security calendar
+    as secondary source for at least one cycle.
   type: security
   tags:
   - security
-- name: NDSS
-  year: 2025
-  date: 24 to 28 February 2025
-  description: Network and Distributed System Security Symposium (NDSS) 2025.
-  link: https://www.ndss-symposium.org/ndss2025/submissions/call-for-papers/
-  comment: Multiple deadlines (Summer and Fall review cycles) on the official CFP;
-    converted from AoE to Etc/GMT+8.
-  type: security
-  tags:
-  - security
-  deadline:
-  - 2024-04-18 07:59
-  - 2024-07-11 07:59
+  deadline: 2025-08-07 11:59
   timezone: Etc/GMT+8
   place: San Diego, CA, USA
+- name: NDSS
+  year: 2024
+  description: 'NDSS Symposium 2024: Network and Distributed System Security Symposium.'
+  link: https://www.ndss-symposium.org/ndss2024/submissions/call-for-papers/
+  comment: deadline not found on official pages
+  type: security
+  tags:
+  - security
+- name: USENIX Security
+  year: 2027
+  date: August 11–13, 2027
+  description: The 36th USENIX Security Symposium (USENIX Security '27).
+  link: https://www.usenix.org/conference/usenixsecurity27
+  comment: Deadline time not explicitly stated on the overview page; assumed 23:59
+    AoE and converted.
+  type: security
+  tags:
+  - security
+  deadline: 2027-01-27 11:59
+  timezone: Etc/GMT+8
+  place: Denver, CO, USA
 - name: USENIX Security
   year: 2026
-  date: August 12–14, 2026
-  description: 35th USENIX Security Symposium (USENIX Security '26).
+  description: USENIX Security '26 Call for Papers.
   link: https://www.usenix.org/conference/usenixsecurity26/call-for-papers
-  comment: Multiple deadlines (two submission cycles) on the official CFP PDF; converted
-    from AoE to Etc/GMT+8.
+  comment: Deadline time given as 11:59 pm AoE on official CFP; converted.
   type: security
   tags:
   - security
-  deadline:
-  - 2025-08-27 07:59
-  - 2026-02-06 07:59
+  deadline: 2026-02-06 11:59
   timezone: Etc/GMT+8
-  place: Baltimore, MD, USA
 - name: USENIX Security
   year: 2025
-  description: 34th USENIX Security Symposium (USENIX Security '25).
+  description: USENIX Security '25 Call for Papers.
   link: https://www.usenix.org/conference/usenixsecurity25/call-for-papers
-  comment: Deadline time not explicitly stated in the retrieved snippet; assuming
-    23:59 AoE for the listed date (time assumed) and converting to Etc/GMT+8.
+  comment: Deadline time not explicitly stated on CFP page; assumed 23:59 (no timezone
+    stated, assumed AoE) and converted.
   type: security
   tags:
   - security
-  deadline: 2025-01-23 07:59
-  timezone: Etc/GMT+8
-- name: USENIX Security
-  year: 2024
-  description: 33rd USENIX Security Symposium (USENIX Security '24).
-  link: https://www.usenix.org/conference/usenixsecurity24/call-for-papers
-  comment: Multiple deadlines on the official CFP; converted from AoE to Etc/GMT+8.
-  type: security
-  tags:
-  - security
-  deadline:
-  - 2023-06-07 07:59
-  - 2023-10-18 07:59
+  deadline: 2025-01-23 11:59
   timezone: Etc/GMT+8
